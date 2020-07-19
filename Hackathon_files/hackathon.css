@@ -89,6 +89,7 @@ h2.header{
   width: 100%;
   height: 100%;
   -webkit-animation: rotation 60s infinite linear;
+  -webkit-user-select:none;
 }
 #spinnystar2{
   z-index: 0;
@@ -98,6 +99,7 @@ h2.header{
   width: 40%;
   height: 40%;
   -webkit-animation: counter-rotation 60s infinite linear;
+  -webkit-user-select:none;
 }
 #spinnystar3{
   z-index: 1;
@@ -107,6 +109,7 @@ h2.header{
   width: 20%;
   height: 20%;
   -webkit-animation: rotation 60s infinite linear;
+  -webkit-user-select:none;
 }
 @-webkit-keyframes rotation {
     from {
